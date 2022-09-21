@@ -1,13 +1,9 @@
 import React from "react";
-import { useState } from "react";
 import "./App.css";
 import Form from "./Form";
 import Game from "./Game";
 
 function App() {
-  //set state
-  const [showGame, setShowGame] = React.useState(false);
-
   return (
     <div className="App">
       <h1>Wordle Turtle 🐢✨</h1>

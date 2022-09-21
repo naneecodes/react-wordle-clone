@@ -1,9 +1,16 @@
+import React from "react";
 import "./Game.css";
+import GameRow from "./GameRow.js";
 
 export default function Game() {
   return (
-    <>
-      <h2>This is a game</h2>
-    </>
+    <section className="gameboard">
+      <GameRow />
+      <GameRow />
+      <GameRow />
+      <GameRow />
+      <GameRow />
+      <GameRow />
+    </section>
   );
 }
